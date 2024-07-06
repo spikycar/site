@@ -7,7 +7,7 @@ export default function Home() {
       <nav className="navbar">
         <div className="container">
           <a className="navbar-brand fw-bolder">
-            <img src="/shark.jpg" width={50} /> spikycat<sup className="text-muted">(they/he)</sup>
+            <Image height={0} width={0} sizes='100vw' alt='logo of the website, which is a blahaj plushie' src="/logo.png" style={{width : "50px", height : "auto"}}/> spikycat<sup className="text-muted">(they/he)</sup>
           </a>
           <ul className="nav flex-grow-1 justify-content-end">
             <li className="nav-item ms-2">
