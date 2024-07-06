@@ -1,5 +1,6 @@
 :root {
-  --wt-bg : #e7ecf0;
+  --wt-bg : white;
+  --wt-scbg : #e7ecf0;
   --wt-fg : #1f1f1f;
 }
 
@@ -19,4 +20,44 @@ body{
 
 .content ul {
   list-style-type: '+ ';
+}
+
+.btn {
+  border: var(--wt-fg) solid 1px;
+  background-color: var(--wt-scbg);
+  font-weight: bold;
+}
+
+.btn:hover{
+  background-color: var(--wt-fg);
+  color: var(--wt-scbg);
+}
+
+.btn:active{
+  border: transparent solid 1px!important;
+}
+
+.navbar {
+  background-color: var(--wt-scbg);
+  border-bottom: var(--wt-fg) solid 1px;
+}
+
+.card {
+  box-shadow: 5px 5px var(--wt-fg);
+  border: var(--wt-fg) solid 1px;
+}
+
+.card-header {
+  border-bottom: var(--wt-fg) solid 1px;
+  font-weight: bold;
+  background-color: var(--wt-scbg);
+}
+
+.content-title {
+  color: #313131;
+}
+
+.card-body img {
+  max-width: 100%;
+  max-height: auto;
 }
