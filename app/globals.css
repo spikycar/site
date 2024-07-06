@@ -57,7 +57,7 @@ body{
   color: #313131;
 }
 
-.card-body img {
-  max-width: 100%;
-  max-height: auto;
+.card-body .img {
+  width: 100%;
+  height: auto;
 }

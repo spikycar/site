@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       <nav className="navbar">
         <div className="container">
           <a className="navbar-brand fw-bolder">
-            <img src="/shark.png" width={50} /> spikycat<sup className="text-muted">(they/he)</sup>
+            <img src="/shark.jpg" width={50} /> spikycat<sup className="text-muted">(they/he)</sup>
           </a>
           <ul className="nav flex-grow-1 justify-content-end">
             <li className="nav-item ms-2">
@@ -47,7 +48,7 @@ export default function Home() {
                   common Blåhaj appearance
                 </div>
                 <div className="card-body text-center">
-                  <img src="/shark.png" />
+                  <Image className='img' alt={"shark"} height={0} width={0} sizes='100vw' src="/shark.jpg" />
                 </div>
               </div>
             </div>
@@ -58,7 +59,7 @@ export default function Home() {
                   anatomy of a Blåhaj
                 </div>
                 <div className="card-body text-center">
-                  <img src="/shark_diagram.jpg" />
+                  <Image height={0} width={0} sizes='100vw' className='img' alt={"shark diagram"} src="/shark_diagram.jpg" />
                 </div>
                 <div className="card-footer">
                   <span className="text-muted">
