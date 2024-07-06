@@ -1,0 +1,22 @@
+:root {
+  --wt-bg : #e7ecf0;
+  --wt-fg : #1f1f1f;
+}
+
+body{
+  background-color: var(--primary-bg);
+  color: var(--wt-fg
+  );
+}
+
+.fw-bolder {
+  font-weight:900!important;
+}
+
+.content {
+  margin-left: 1.1em;
+}
+
+.content ul {
+  list-style-type: '+ ';
+}
