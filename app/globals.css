@@ -42,6 +42,11 @@ body{
   border-bottom: var(--wt-fg) solid 1px;
 }
 
+.navbar.bottom{
+  border-bottom : 0;
+  border-top : var(--wt-fg) solid 1px;
+}
+
 .card {
   box-shadow: 5px 5px var(--wt-fg);
   border: var(--wt-fg) solid 1px;
@@ -60,4 +65,20 @@ body{
 .card-body .img {
   width: 100%;
   height: auto;
+}
+
+table {
+  border-radius : 100px;
+}
+
+th, th[scope="col"]{
+  font-weight : 900;
+  border : solid 1px var(--wt-fg);
+  padding : 5px;
+  background-color : var(--wt-scbg);
+}
+
+td, td[scope="row"]{
+  padding : 5px;
+  border : dotted 1px var(--wt-fg);
 }

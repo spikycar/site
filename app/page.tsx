@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+import "./blahaj.css"
+
 export default function Home() {
   return (
     <main>
@@ -11,8 +13,8 @@ export default function Home() {
           </a>
           <ul className="nav flex-grow-1 justify-content-end">
             <li className="nav-item ms-2">
-              <a href="#" className="btn btn-sm">
-                about
+              <a href='#' aria-disabled className="btn btn-sm disabled">
+                <s>about</s>
               </a>
             </li>
             <li className="nav-item ms-2">
@@ -23,26 +25,28 @@ export default function Home() {
           </ul>
         </div>
       </nav>
-      <div className="container">
-        <div className="mt-5">
+      <div className="container my-5">
+        <div>
           <div className="d-flex justify-content-between">
           <h1 className="h5 fw-bolder">hello<sup>👋</sup></h1>
           </div>
           <p>this page still under construction. let's talk about blåhaj</p>
         </div>
+        
         <div className="mt-4">
           <h2 className="h6 fw-bolder content-title">--what's Blåhaj</h2>
           <div className="content">
           Blåhaj  (stylized BLÅHAJ, lit 'blue shark') is a plush toy manufactured and sold by the Swedish company IKEA. Modeled after a blue shark and made of recycled polyester, the toy has gained prominence on social media as a popular internet meme, especially in the transgender community, and has also been used as a mascot by IKEA in some regions.
           </div>
         </div>
+        
         <div className="mt-4">
           <h2 className="h6 fw-bolder content-title">--identifying a Blåhaj</h2>
           <div className="content">
 
-            <div className="row col-12">
+            <div className="row col-12 blahaj-info me-4">
 
-            <div className="col-6">
+            <div className="col-md-6 col-lg-4 col-sm-12">
               <div className="card m-2">
                 <div className="card-header">
                   common Blåhaj appearance
@@ -53,7 +57,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col-6">
+            <div className="col-md-6 col-lg-4 col-sm-12">
               <div className="card m-2">
                 <div className="card-header">
                   anatomy of a Blåhaj
@@ -68,12 +72,58 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             </div>
+          </div>
+        </div>
+        
+        <div className="mt-4">
+              <h2 className="h6 fw-bolder content-title">--why you should choose blahaj</h2>
+              <div className="content">
+                <table className="table mt-3">
+                  <thead>
+                    <tr>
+                      <th scope="col">Blahaj</th>
+                      <th scope="col">The other plushies</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td scope="row">Soft as fuck</td>
+                    <td scope="row">Depends on the plushie, usually not very soft</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Huggable</td>
+                    <td scope="row">Most Plushies aren't huggable</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Has cute as fuck eyes</td>
+                    <td scope="row">Many plushie has wierd eyes</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Can protect you from criminals if they afraid of shark</td>
+                    <td scope="row">Many plushies aren't shark-shaped</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+        </div>
 
+        <div className="mt-4">
+          <h2 className="h6 fw-bolder content-title">--how to obtain one?</h2>
+          <div className="content">
+            <ul>
+            <li>Getting them from IKEA, <Link href="https://blahaj.quest/">use this as reference</Link></li>
+            <li>Getting them from big online store like Amazon</li>
+            <li><Link href="https://www.reddit.com/r/BLAHAJ/comments/13fu9pp/theres_a_blahaj_at_my_goodwill/">Charity store like Goodwill</Link></li>
+            </ul>
           </div>
         </div>
       </div>
+      <nav className='navbar bottom'>
+        <div className='container justify-content-center'>
+          <p className='muted text-center small m-0'>still underconstruction, by <b>spikycat/fyescha</b></p>
+        </div>
+      </nav>
     </main>
   );
 }
