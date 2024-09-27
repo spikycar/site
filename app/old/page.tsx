@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import "./blahaj.css"
+import "./../blahaj.css"
 
 export default function Home() {
   return (
@@ -28,17 +28,15 @@ export default function Home() {
       <div className="container my-5">
         <div>
           <div className="d-flex justify-content-between">
-          <h1 className="h5 fw-bolder">About me 🙋</h1>
+          <h1 className="h5 fw-bolder">hello<sup>👋</sup></h1>
           </div>
-          <p>I'm a student in software engineering, an awardee of Indonesian International Student Movement Award programme. Currently living in Jakarta</p>
+          <p>this page still under construction. let's talk about blåhaj</p>
         </div>
         
         <div className="mt-4">
-          <h2 className="h6 fw-bolder content-title">--awards and certification</h2>
+          <h2 className="h6 fw-bolder content-title">--what's Blåhaj</h2>
           <div className="content">
-            <ul>
-              <li></li>
-            </ul>
+          Blåhaj  (stylized BLÅHAJ, lit 'blue shark') is a plush toy manufactured and sold by the Swedish company IKEA. Modeled after a blue shark and made of recycled polyester, the toy has gained prominence on social media as a popular internet meme, especially in the transgender community, and has also been used as a mascot by IKEA in some regions.
           </div>
         </div>
         
