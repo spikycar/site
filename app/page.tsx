@@ -71,7 +71,7 @@ export default function Home() {
                           <li>Please don't give me beat by dre</li>
                           <li>or Apple products</li>
                           <li>make sure it's cheap (like CHI-FIs), so I can incorporate it into my gear without making me broke</li>
-                          <li>just drop a link or maybe with explanation to my email/discord/bluesky DM, which I will post here :> </li>
+                          <li>just drop a link or maybe with explanation to my email/discord/bluesky DM, which I will post here :&gt; </li>
                       </ul>
                     </div>
                   </div>
