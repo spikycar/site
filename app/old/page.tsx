@@ -1,31 +1,15 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import "./../blahaj.css"
+import Navbar from '../component/navbar';
+import BottomBar from '../component/bottom';
 
 export default function Home() {
   return (
     <main>
-      <nav className="navbar">
-        <div className="container">
-          <a className="navbar-brand fw-bolder">
-            <Image height={0} width={0} sizes='100vw' alt='logo of the website, which is a blahaj plushie' src="/logo.png" style={{width : "50px", height : "auto"}}/> spikycat<sup className="text-muted">(they/he)</sup>
-          </a>
-          <ul className="nav flex-grow-1 justify-content-end">
-            <li className="nav-item ms-2">
-              <a href='#' aria-disabled className="btn btn-sm disabled">
-                <s>about</s>
-              </a>
-            </li>
-            <li className="nav-item ms-2">
-              <a href="https://github.com/fyescha" target="_blank" className="btn btn-sm">
-                github
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div className="container my-5">
+      <Navbar/>
+      
+      <div className="container my-5 stage">
         <div>
           <div className="d-flex justify-content-between">
           <h1 className="h5 fw-bolder">hello<sup>👋</sup></h1>
@@ -119,11 +103,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <nav className='navbar bottom'>
-        <div className='container justify-content-center'>
-          <p className='muted text-center small m-0'>still underconstruction, by <b>spikycat/fyescha</b></p>
-        </div>
-      </nav>
+
+      <BottomBar/>
     </main>
   );
 }
