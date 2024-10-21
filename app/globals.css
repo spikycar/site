@@ -82,3 +82,22 @@ td, td[scope="row"]{
   padding : 5px;
   border : dotted 1px var(--wt-fg);
 }
+
+a {
+  color : black;
+}
+
+a:hover {
+  font-weight: 900;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top : 57px!important;
+}
+
+.stage {
+  flex: 1;
+}
