@@ -1,7 +1,9 @@
 export default function BottomBar(){
-    return <nav className='navbar bottom'>
-        <div className='container justify-content-center'>
-            <p className='muted text-center small m-0'>certified bi&trade;</p>
+    return <nav className='navbar'>
+        <div className='container'>
+            <p className='muted small m-0'>
+                i'm thinking of terminal mode, maybe coming soon...
+            </p>
         </div>
     </nav>;
 }

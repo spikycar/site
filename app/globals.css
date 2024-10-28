@@ -39,7 +39,8 @@ body{
 
 .navbar {
   background-color: var(--wt-scbg);
-  border-bottom: var(--wt-fg) solid 1px;
+  border: var(--wt-fg) solid 1px;
+  border-radius: calc(0.375rem - 1px);
 }
 
 .navbar.bottom{

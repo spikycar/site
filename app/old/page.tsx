@@ -6,7 +6,7 @@ import BottomBar from '../component/bottom';
 
 export default function Home() {
   return (
-    <main>
+    <main className='container py-3'>
       <Navbar/>
       
       <div className="container my-5 stage">
