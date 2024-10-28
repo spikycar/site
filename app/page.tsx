@@ -6,9 +6,9 @@ import BottomBar from './component/bottom';
 
 export default function Home() {
   return (
-    <main>
+    <main className='container py-3'>
       <Navbar/>
-      <div className="container my-5 stage">
+      <div className="my-5 stage">
           <div className=''>
             <div className="d-flex justify-content-between">
             <h1 className="h6 fw-bolder">--about me 🙋</h1>
@@ -18,7 +18,7 @@ export default function Home() {
               <ul>
                 <li>20 (Gen-Z)</li>
                 <li><s>IT</s> Computer Science student</li>
-                <li>interested on cybersecurity now</li>
+                <li>interested on cybersecurity</li>
                 <li>I have blahaj</li>
               </ul>
               <p>I also an audio enthutiast, my listening gear only consits of one headphone and one earphone</p>
