@@ -47,7 +47,7 @@ export default function NoteBlog({ params }: NotePageProps){
 
     return <main className='container py-0'>
     <Navbar/>
-        <div className="container my-5 note stage">
+        <div className="container note stage">
             <MDXContent />
         </div>
     <BottomBar/>

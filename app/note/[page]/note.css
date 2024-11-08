@@ -9,27 +9,28 @@
     border-radius : calc(0.375rem - 1px);
     border : black 1px solid;
     box-shadow: 5px 5px black;
-    margin : 30px 0;
 }
 
 .note.stage h1 {
+    margin-top: 60px;
     font-weight: bold;
     font-size: 36pt;
 }
 
 .note.stage h2 {
+    margin-top: 40px;
     font-weight: bold;
     font-size: 24pt;
 }
 
 .note.stage h3 {
+    margin-top: 20px;
     font-weight: bold;
     font-size: 18pt;
 }
 
 .note.stage p {
     font-size: 14pt;
-    font-weight: 600;
     text-align: justify;
 }
 
@@ -39,7 +40,7 @@ pre {
     border : black 1px solid;
     padding : 10px;
     margin : 30px 0;
-    font-weight: bolder;
+    font-weight: 500;
     border-radius: calc(0.375rem - 1px);
     font-size: 13pt;
     font-family: 'Jetbrains Mono';

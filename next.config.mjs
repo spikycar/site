@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 import nextMdx from '@next/mdx';
-
 const withMDX = nextMdx({
     extension : /\.mdx?$/,
-    options : {}
+    options : {
+    }
 })
 
 const nextConfig = withMDX({
