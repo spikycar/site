@@ -8,10 +8,12 @@ body{
   background-color: var(--primary-bg);
   color: var(--wt-fg
   );
+  display: flex;
+  justify-content: center;
 }
 
-.fw-bolder {
-  font-weight:900!important;
+.app_stage{
+  max-width: 1000px;
 }
 
 .content {
@@ -37,15 +39,19 @@ body{
   border: transparent solid 1px!important;
 }
 
+.navbar.bottom{
+  border-bottom : 0;
+  border : var(--wt-fg) solid 1px!important;
+  border-radius : calc(0.375rem - 1px);
+  margin-bottom: 25px;
+}
+
 .navbar {
   background-color: var(--wt-scbg);
   border: var(--wt-fg) solid 1px;
-  border-radius: calc(0.375rem - 1px);
-}
-
-.navbar.bottom{
-  border-bottom : 0;
-  border-top : var(--wt-fg) solid 1px;
+  border-top: 0!important;
+  border-bottom-left-radius: calc(0.375rem - 1px);
+  border-bottom-right-radius: calc(0.375rem - 1px);
 }
 
 .card {
