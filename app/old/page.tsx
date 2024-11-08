@@ -6,26 +6,26 @@ import BottomBar from '../component/bottom';
 
 export default function Home() {
   return (
-    <main className='container py-3'>
+    <main className='container py-0'>
       <Navbar/>
       
       <div className="container my-5 stage">
         <div>
           <div className="d-flex justify-content-between">
-          <h1 className="h5 fw-bolder">hello<sup>👋</sup></h1>
+          <h1 className="h5 fw-bold">hello<sup>👋</sup></h1>
           </div>
           <p>this page still under construction. let's talk about blåhaj</p>
         </div>
         
         <div className="mt-4">
-          <h2 className="h6 fw-bolder content-title">--what's Blåhaj</h2>
+          <h2 className="h6 fw-bold content-title">--what's Blåhaj</h2>
           <div className="content">
           Blåhaj  (stylized BLÅHAJ, lit 'blue shark') is a plush toy manufactured and sold by the Swedish company IKEA. Modeled after a blue shark and made of recycled polyester, the toy has gained prominence on social media as a popular internet meme, especially in the transgender community, and has also been used as a mascot by IKEA in some regions.
           </div>
         </div>
         
         <div className="mt-4">
-          <h2 className="h6 fw-bolder content-title">--identifying a Blåhaj</h2>
+          <h2 className="h6 fw-bold content-title">--identifying a Blåhaj</h2>
           <div className="content">
 
             <div className="row col-12 blahaj-info me-4">
@@ -61,7 +61,7 @@ export default function Home() {
         </div>
         
         <div className="mt-4">
-              <h2 className="h6 fw-bolder content-title">--why you should choose blahaj</h2>
+              <h2 className="h6 fw-bold content-title">--why you should choose blahaj</h2>
               <div className="content">
                 <table className="table mt-3">
                   <thead>
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
 
         <div className="mt-4">
-          <h2 className="h6 fw-bolder content-title">--how to obtain one?</h2>
+          <h2 className="h6 fw-bold content-title">--how to obtain one?</h2>
           <div className="content">
             <ul>
             <li>Getting them from IKEA, <Link href="https://blahaj.quest/">use this as reference</Link></li>
