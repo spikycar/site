@@ -13,7 +13,7 @@ body{
 }
 
 .app_stage{
-  max-width: 1000px;
+  width: 1000px;
 }
 
 .content {
@@ -79,7 +79,7 @@ table {
 }
 
 th, th[scope="col"]{
-  font-weight : 900;
+  font-weight : bold;
   border : solid 1px var(--wt-fg);
   padding : 5px;
   background-color : var(--wt-scbg);
@@ -107,4 +107,10 @@ main {
 
 .stage {
   flex: 1;
+}
+
+/*** for notes list ***/
+.notes-list-item {
+  display: flex;
+  justify-content: space-between;
 }
