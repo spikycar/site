@@ -13,7 +13,7 @@ export default function Embed(props:Props){
         justifyContent : "center",
         alignContent : "center",
         flex : 1
-    }}>
+    }} >
             <iframe 
             src={props.url} 
             allowFullScreen={false} 

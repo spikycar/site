@@ -9,68 +9,61 @@ export default function Home() {
     <main className='container py-0'>
       <Navbar/>
       
-      <div className="container my-5 stage">
-        <div>
-          <div className="d-flex justify-content-between">
-          <h1 className="h5 fw-bold">hello<sup>👋</sup></h1>
-          </div>
-          <p>this page still under construction. let's talk about blåhaj</p>
-        </div>
-        
-        <div className="mt-4">
-          <h2 className="h6 fw-bold content-title">--what's Blåhaj</h2>
-          <div className="content">
-          Blåhaj  (stylized BLÅHAJ, lit 'blue shark') is a plush toy manufactured and sold by the Swedish company IKEA. Modeled after a blue shark and made of recycled polyester, the toy has gained prominence on social media as a popular internet meme, especially in the transgender community, and has also been used as a mascot by IKEA in some regions.
-          </div>
-        </div>
-        
-        <div className="mt-4">
-          <h2 className="h6 fw-bold content-title">--identifying a Blåhaj</h2>
-          <div className="content">
+      <div className="my-3">
+        <div className='card'>
+          <div className="card-body">
+            <div className="d-flex justify-content-between">
+              <h1 className="h2 fw-bold">Hello<sup>👋</sup></h1>
+            </div>
+            <p>this page still under construction. let's talk about blåhaj</p>
 
-            <div className="row col-12 blahaj-info me-4">
+            <h2 className="h3 fw-bold">What's Blåhaj</h2>
+            <p className="content">
+            Blåhaj  (stylized BLÅHAJ, lit 'blue shark') is a plush toy manufactured and sold by the Swedish company IKEA. Modeled after a blue shark and made of recycled polyester, the toy has gained prominence on social media as a popular internet meme, especially in the transgender community, and has also been used as a mascot by IKEA in some regions.
+            </p>
 
-            <div className="col-md-6 col-lg-4 col-sm-12">
-              <div className="card m-2">
-                <div className="card-header">
-                  common Blåhaj appearance
+            <h2 className="h3 fw-bold">Identifying a Blåhaj</h2>
+            <div className="content">
+              <div className="row col-12 blahaj-info me-4">
+              <div className="col-md-6 col-lg-4 col-sm-12">
+                <div className="card mt-2">
+                  <div className="card-header">
+                    common Blåhaj appearance
+                  </div>
+                  <div className="card-body text-center">
+                    <Image className='img' alt={"shark"} height={0} width={0} sizes='100vw' src="/shark.jpg" />
+                  </div>
                 </div>
-                <div className="card-body text-center">
-                  <Image className='img' alt={"shark"} height={0} width={0} sizes='100vw' src="/shark.jpg" />
+              </div>
+
+              <div className="col-md-6 col-lg-4 col-sm-12">
+                <div className="card mt-2">
+                  <div className="card-header">
+                    anatomy of a Blåhaj
+                  </div>
+                  <div className="card-body text-center">
+                    <Image height={0} width={0} sizes='100vw' className='img' alt={"shark diagram"} src="/shark_diagram.jpg" />
+                  </div>
+                  <div className="card-footer">
+                    <span className="text-muted">
+                      thank you <Link href="https://www.reddit.com/r/BLAHAJ/comments/y575gl/guide_for_the_bl%C3%A5haj/">u/QuyT1 on reddit!</Link>
+                    </span>
+                  </div>
                 </div>
+              </div>
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-4 col-sm-12">
-              <div className="card m-2">
-                <div className="card-header">
-                  anatomy of a Blåhaj
-                </div>
-                <div className="card-body text-center">
-                  <Image height={0} width={0} sizes='100vw' className='img' alt={"shark diagram"} src="/shark_diagram.jpg" />
-                </div>
-                <div className="card-footer">
-                  <span className="text-muted">
-                    thank you <Link href="https://www.reddit.com/r/BLAHAJ/comments/y575gl/guide_for_the_bl%C3%A5haj/">u/QuyT1 on reddit!</Link>
-                  </span>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-        
-        <div className="mt-4">
-              <h2 className="h6 fw-bold content-title">--why you should choose blahaj</h2>
-              <div className="content">
-                <table className="table mt-3">
-                  <thead>
-                    <tr>
-                      <th scope="col">Blahaj</th>
-                      <th scope="col">The other plushies</th>
-                    </tr>
-                  </thead>
-                  <tbody>
+            <h2 className="h3 fw-bold mt-4">Why you should choose blahaj</h2>
+            <div className="content">
+              <table className="table mt-3">
+                <thead>
+                  <tr>
+                    <th scope="col">Blahaj</th>
+                    <th scope="col">The other plushies</th>
+                  </tr>
+                </thead>
+                <tbody>
                   <tr>
                     <td scope="row">Soft as fuck</td>
                     <td scope="row">Depends on the plushie, usually not very soft</td>
@@ -87,19 +80,19 @@ export default function Home() {
                     <td scope="row">Can protect you from criminals if they afraid of shark</td>
                     <td scope="row">Many plushies aren't shark-shaped</td>
                   </tr>
-                  </tbody>
-                </table>
-              </div>
-        </div>
+                </tbody>
+              </table>
+            </div>
 
-        <div className="mt-4">
-          <h2 className="h6 fw-bold content-title">--how to obtain one?</h2>
-          <div className="content">
-            <ul>
-            <li>Getting them from IKEA, <Link href="https://blahaj.quest/">use this as reference</Link></li>
-            <li>Getting them from big online store like Amazon</li>
-            <li><Link href="https://www.reddit.com/r/BLAHAJ/comments/13fu9pp/theres_a_blahaj_at_my_goodwill/">Charity store like Goodwill</Link></li>
-            </ul>
+            <h2 className="h3 fw-bold content-title">How to obtain one?</h2>
+            <div className="content">
+              <ul>
+              <li>Getting them from IKEA, <Link href="https://blahaj.quest/">use this as reference</Link></li>
+              <li>Getting them from big online store like Amazon</li>
+              <li><Link href="https://www.reddit.com/r/BLAHAJ/comments/13fu9pp/theres_a_blahaj_at_my_goodwill/">Charity store like Goodwill</Link></li>
+              </ul>
+            </div>
+
           </div>
         </div>
       </div>
