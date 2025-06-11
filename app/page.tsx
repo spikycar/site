@@ -45,7 +45,7 @@ export default function Home() {
 
 
               <div className="col-12 my-3">
-                <div className="row">
+                <div className="row gy-3">
                   
                   <div className="col-md-6 col-sm-12">
                     <div className="card">
@@ -68,7 +68,7 @@ export default function Home() {
               </div>
 
               <div className="col-12 my-3">
-                <div className="row">
+                <div className="row gy-3">
                   
                   <div className="col-md-6 col-sm-12">
                     <div className="card">
