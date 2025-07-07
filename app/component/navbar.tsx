@@ -9,13 +9,13 @@ export default function Navbar(){
       </Link>
       <ul className="nav flex-grow-1 justify-content-end">
       <li className="nav-item ms-2">
-          <Link href='/notes' aria-disabled className="btn btn-sm">
-            notes
+          <Link href='https://github.com/spikycar' aria-disabled className="btn btn-sm">
+            GitHub
           </Link>
       </li>
       <li className="nav-item ms-2">
-          <Link href='/old' aria-disabled className="btn btn-sm">
-            prototyping page
+          <Link href='/about' aria-disabled className="btn btn-sm">
+            About
           </Link>
       </li>
       </ul>
